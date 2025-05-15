@@ -13,7 +13,6 @@ var blobServiceClient = new BlobServiceClient(
         new Uri("https://nabihahstorage.blob.core.windows.net"),
         new DefaultAzureCredential());
 
-
 //Create a unique name for the container
 string containerName = "quickstartblobs" + Guid.NewGuid().ToString();
 
